@@ -1,0 +1,165 @@
+.header {
+  background: $background-color;
+  &__center {
+    @include wrap-center(90px);
+  }
+}
+
+.nav {
+  &__list {
+    list-style-type:none;
+    padding-left: 0px;
+  }
+  &__item {
+    display:inline-block;
+    &_header {
+      margin-right:55px;
+    }
+  }
+  &__link {
+    display:block;
+    color:#151515;
+    @include roboto(400);
+    text-transform: capitalize;
+    transition:all 0.3s;
+    font-size: 18px;
+    &:hover {
+      text-decoration: none;
+      color:$theme-color;
+    }
+    &:link {
+      text-decoration:none;
+      color:$main-color;
+    }
+    &:focus {
+      text-decoration: none;
+      color:$main-color;
+    }
+    &:active {
+      text-decoration: none;
+      color:$theme-color;
+    }
+  }
+}
+
+.download {
+  background:$theme-color;
+  display: block;
+  padding-left: 17px;
+  padding-right: 17px;
+  line-height:54px;
+  color:$white-color;
+  @include roboto(300);
+  font-size: 24px;
+  &:hover,&:link,&:active,&:focus {
+    text-decoration: none;
+    color:$white-color;
+  }
+  &__img {
+    padding-right: 10px;
+  }
+}
+
+.section {
+  &__center {
+    text-align: center;
+  }
+  &_background {
+    background-color:$background-color;
+  } 
+}
+
+.title {
+  @include roboto(500);
+  color:$main-color;
+  text-transform: uppercase;
+  margin:0px;
+  &_banner {
+    font-size: 132px;
+  }
+  &_section {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+  }
+}
+
+.form {
+  &_center {
+    display: table;
+    margin:0 auto;
+  }
+  &_top {
+    padding-top: 17px;
+    padding-bottom:17px;
+  }
+  &__field {
+    border:0px;
+    outline:none;
+    max-width:296px;
+    line-height: 54px;
+    margin-right:20px;
+    text-indent: 17px;
+    @include roboto(300);
+    &::placeholder {
+      @include roboto(300);
+      font-size: 24px;
+      color:$main-color;
+    }
+    &_top {
+      background-color:$white-color;
+      color:$main-color;
+      font-size: 24px;
+    }
+  }
+}
+
+.button {
+  border:none;
+  outline:none;
+  padding-left: 20px;
+  padding-right:20px;
+  @include roboto(400);
+  font-size: 24px;
+  line-height: 54px;
+  text-transform: capitalize;
+  &_red {
+    background:$theme-color;
+    color:$white-color;
+  }
+}
+
+.banner {
+  background-image:url("/img/banner.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top: 90px;
+  padding-bottom: 140px;
+  &__date {
+    font-size: 44px;
+    @include roboto(500);
+    color:$theme-color;
+    margin-bottom:0px;
+  }
+  &__title {
+    font-size: 89px;
+    margin:0px;
+    @include roboto(300);
+    color:$main-color;
+  }
+  &__text {
+    font-size: 31px;
+    color: $main-color;
+    @include roboto(300);
+    margin-bottom:0px;
+    margin-top:20px;
+    &-inner {
+      padding-left:25px;
+    }
+  }
+}
+
+.theses {
+  background-color:$white-color;
+}

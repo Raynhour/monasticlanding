@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test VueJS</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="header__center">
+            <img src="./img/logo.jpg" alt="logo" class="header__logo">
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-1">
+        <div class="header__center">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item_header"><a href="#" class="nav__link nav__link_color">Тезисы</a></li>
+              <li class="nav__item nav__item_header"><a href="#" class="nav__link nav__link_color">Спикеры</a></li>
+              <li class="nav__item nav__item_header"><a href="#" class="nav__link nav__link_color">Заявка</a></li>
+              <li class="nav__item nav__item_header"><a href="#" class="nav__link nav__link_color">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="header__center">
+          <a href="/img/invoice.xlsx" download class="download">
+            <img src="/img/download.png" class="download__img" alt="download">
+            <span class="download__text">Скачать invoice</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <section class="section banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section__center">
+            <p class="banner__date">09.12.17</p>
+            <p class="banner__text">начало в 17:30 <span class="banner__text-inner">г. Рига</span></p>
+            <p class="banner__text">отель Radisson ул. Элизабетес, 55</p>
+            <p class="title title_banner">саммит</p>
+            <h1 class="banner__title">Жизнь без долгов</h1>
+            <p class="banner__text">Как совершить квантовый скачок в сфере финансов</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section_background">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form action="" class="form form_center form_top">
+            <input type="text" placeholder="Имя" class="form__field form__field_top">
+            <input type="number" placeholder="Телефон" class="form__field form__field_white">
+            <button type="submit" class="button button_red">зарегистрироваться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section theses">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title title_section">тезисы</h2>
+        </div>
+        <div class="col-md-6">
+          <p class="section__text"></p>
+          <p class="section__text"></p>
+        </div>
+        <div class="col-md-6">
+          <p class="section__text"></p>
+          <p class="section__text"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
