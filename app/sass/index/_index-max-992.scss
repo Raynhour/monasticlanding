@@ -1,0 +1,39 @@
+.header {
+  &__center {
+    justify-content: center;
+  }
+}
+
+.form {
+  &__field {
+    width:45%;
+  }
+}
+
+.section {
+  &__text {
+    height:auto;
+    padding-top: 20px;
+    &:before {
+      top:32px;
+    }
+  }
+}
+
+.button {
+  margin:0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.theses {
+
+  &__title {
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  &__height {
+    height: 500px;
+    margin-bottom: 0px;
+  }
+}

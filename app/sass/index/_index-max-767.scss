@@ -1,0 +1,85 @@
+.title {
+  &_banner {
+    font-size: 50px;
+  }
+  &_section {
+    font-size: 40px;
+  }
+}
+
+.header {
+  &__center {
+    justify-content:center;
+  }
+}
+
+.banner {
+  padding-top: 30px;
+  padding-bottom:30px;
+  &__date {
+    font-size: 30px;
+  }
+  &__text {
+    font-size: 25px;
+    &-inner {
+      padding-left: 5px;
+    }
+  }
+  &__title {
+    font-size: 40px;
+  }
+}
+
+.nav {
+  &__item {
+    margin-right:10px;
+  }
+}
+
+.section {
+  &__price {
+    font-size: 20px;
+    text-align:center;
+    display: block;
+  }
+  &__text {
+    margin-left: 20px;
+    padding-top: 20px;
+    height: auto;
+    &:before {
+      top: 32px;      
+    }
+  }
+}
+
+.form {
+  &__field {
+    width:100%;
+    margin:0 auto;
+    display: block;
+    margin-bottom:20px;
+  }
+}
+
+.download {
+  &_price {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.theses {
+  &__img {
+    width:100%; 
+    height:auto;
+    display:block;
+    left:0; 
+  }
+  &__title {
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  &__height {
+    height: 420px;
+  }
+}
