@@ -246,6 +246,10 @@
   font-size: 60px;
 }
 
+.form {
+  text-align: center;
+}
+
 .form_top {
   padding-top: 17px;
   padding-bottom: 17px;
@@ -334,6 +338,10 @@
   outline: none;
   padding-left: 20px;
   padding-right: 20px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -567,10 +575,6 @@
   .theses__height {
     height: 500px;
     margin-bottom: 0px;
-  }
-  .theses__img {
-    width:auto;
-    height:auto;
   }
 }
 

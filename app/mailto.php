@@ -4,6 +4,7 @@
 if( isset($_POST['phone']) ){
 
   $phone = $_POST['phone'];
+  $email = $_POST['email'];
   
   if ( isset($_POST['name']) ) {
     $name = $_POST['name'];
@@ -19,6 +20,7 @@ if( isset($_POST['phone']) ){
                 <title>Monastic</title>
             </head>
             <body>
+            	<p><strong>Почта отправителя:</strong> '. $email .'</p>
                 <p><strong>Имя отправителя:</strong> '. $name .'</p>
                 <p><strong>Телефон отправителя:</strong> '. $phone .'</p>
             </body>

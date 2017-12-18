@@ -114,6 +114,7 @@
 }
 
 .form {
+  text-align: center;
   &_center {
   }
   &_top {
@@ -155,6 +156,10 @@
   outline:none;
   padding-left: 20px;
   padding-right:20px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   @include roboto(400);
   font-size: 24px;
   line-height: 54px;

@@ -65,8 +65,9 @@
       <div class="row">
         <div class="col-md-11 col-md-offset-1">
           <form action="mailto.php" class="form form_top send_form" method="POST">
-            <input type="text" placeholder="Имя" name="name" class="form__field form__field_top">
-            <input type="number" name="phone" placeholder="Телефон" class="form__field form__field_top">
+            <input required type="email" placeholder="Email" name="email" class="form__field form__field_top">
+            <input required type="text" placeholder="Имя" name="name" class="form__field form__field_top">
+            <input required type="number" name="phone" placeholder="Телефон" class="form__field form__field_top">
             <input type="submit" id="topsend-btn-" name="submit" class="button button_red send send-btn" value="зарегистрироваться">
           </form>
         </div>
@@ -157,9 +158,8 @@
               международной сети Curves,
               замужем 25 лет, мама 7 детей.
           </p>
-          <p class="speakers__text speakers__text_slogan">24 года в бизнесе, руководитель
-              международной сети Curves,
-              замужем 25 лет, мама 7 детей.</p>
+          <p class="speakers__text speakers__text_slogan">Счастливый капиталист миф или реальность?
+            Фундаментальный капитал.</p>
         </div>
       </div>
     </div>
@@ -174,9 +174,10 @@
             <span class="download__text">Скачать invoice</span>
           </a>
           <form action="mailto.php" class="form form_top send_form" method="POST">
-              <input type="text" placeholder="Имя" name="name" class="form__field form__field_bottom">
-              <input type="number" placeholder="Телефон" name="phone" class="form__field form__field_bottom">
-              <button class="button button_white send send-btn" id="bottomsend-btn">зарегистрироваться</button>
+              <input required type="email" placeholder="Email" name="email" class="form__field form__field_bottom">
+              <input  required type="text" placeholder="Имя" name="name" class="form__field form__field_bottom">
+              <input required type="number" placeholder="Телефон" name="phone" class="form__field form__field_bottom">
+              <button type="submit" class="button button_white send send-btn" id="bottomsend-btn">зарегистрироваться</button>
           </form>          
         </div>
       </div>
